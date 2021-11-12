@@ -18,8 +18,40 @@ img {
 }
 
 button {
-  padding: 50px;
-  font-size: 20px;
-  border-color: black;
-  background-color: #fff;
+  padding: 10px;
+  font-size: 30px;
+  border: 4px double green;
+  background-color: rgb(213, 236, 213);
+  color: green;
+}
+.timer {
+  display: flex;
+  margin-top: 40px;
+}
+.field {
+  display: flex;
+  flex-direction: column;
+  margin-right: 50px;
+}
+
+.value {
+  font-weight: bold;
+  font-size: 60px;
+  color: blue;
+}
+
+.label {
+  text-transform: uppercase;
+  font-weight: bold;
+  color: rgb(97, 111, 119);
+}
+
+.flatpickr-input {
+  font-weight: 700;
+  font-size: 30px;
+  text-align: center;
+  padding: 10px;
+  background-color: rgb(248, 213, 213);
+  border: 4px double red;
+  color: red;
 }
