@@ -39,6 +39,7 @@ flatpickr('#datetime-picker', {
             function handleStartTimer() {
                 const currentTime = selectedDates[0].getTime();
                 refs.start.setAttribute(`disabled`, false);
+                refs.input.setAttribute(`disabled`, false);
             const StartTimeTimer = setInterval(() => {
                 const deltaTime = currentTime - (new Date()).getTime();
                 const time = convertMs(deltaTime)
